@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('blog::home.index');
     }
+
+    public function practice()
+    {
+        return view('blog::home.practice');
+    }
 }

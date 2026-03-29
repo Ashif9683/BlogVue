@@ -15,6 +15,14 @@
                 <p class="mt-3 text-sm leading-6 text-slate-300">
                     This page is rendered from <code>packages/Blog</code> to match Bagisto package conventions.
                 </p>
+                <div class="mt-6">
+                    <a
+                        href="{{ route('blog.practice') }}"
+                        class="inline-flex items-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-200"
+                    >
+                        Open Tailwind Practice Page
+                    </a>
+                </div>
             </header>
 
             <div id="blog-app" data-title="Blog Home"></div>
